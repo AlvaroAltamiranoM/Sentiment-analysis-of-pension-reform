@@ -43,8 +43,8 @@ def get_save_tweets(INSS, api, query, max_tweets=200000, lang='pt'):
         #Display how many tweets we have collected
         print("Downloaded {0} tweets".format(tweetCount))
 query = '#Previdencia OR #Aposentadoria OR #Previdência OR #Aposentados OR Previdencia OR Previdência \
-        OR Aposentados OR Aposentadoria OR previdencia OR previdência OR reformaprevidencia OR #INSS OR #reformadaprevidência OR \
-        #reformaprevidencia OR #previdenciasocial -Filter:retweets'                        
+        OR Aposentados OR Aposentadoria OR previdencia OR previdência OR reformaprevidencia OR #INSS \
+        OR #reformadaprevidência OR #reformaprevidencia OR #previdenciasocial -Filter:retweets'                        
       
 # # Get those tweets
 get_save_tweets('tweetsF.json', api, query)
