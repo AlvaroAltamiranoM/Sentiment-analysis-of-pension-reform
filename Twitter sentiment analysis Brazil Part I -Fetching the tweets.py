@@ -27,6 +27,7 @@ def connect_to_twitter_OAuth():
 start_date = '2019-7-9'
 # # Create API object
 api = connect_to_twitter_OAuth()  
+
 def get_save_tweets(INSS, api, query, max_tweets=200000, lang='pt'):
 
     tweetCount = 0
