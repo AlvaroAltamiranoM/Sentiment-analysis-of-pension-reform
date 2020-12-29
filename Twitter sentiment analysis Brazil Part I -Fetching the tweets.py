@@ -32,12 +32,10 @@ def get_save_tweets(INSS, api, query, max_tweets=200000, lang='pt'):
     tweetCount = 0
 
     #Open file and save tweets
-    
     with open(INSS, 'w') as f:
 
         # Send the query
         for tweet in tweepy.Cursor(api.search,q=query,lang=lang, since=start_date).items(max_tweets):         
-
             #Convert to JSON format
             f.write(jsonpickle.encode(tweet._json, unpicklable=False) + '\n')
             tweetCount += 1
