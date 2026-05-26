@@ -34,11 +34,11 @@ Brazil's 2019 pension reform was consequential for the country's public finances
 
 Twitter-based opinion measurement lacks the sampling rigor and external validation of household surveys or formal polls. Geo-location coverage is limited to users who share location. Results are illustrative of method rather than representative of the Brazilian population.
 
+## Blogpost
+
+Full methodology and visualizations: [Medium post](https://ajaltamiranomontoya.medium.com/twitter-sentiment-analysis-what-does-people-say-about-brazils-ongoing-pension-reform-830568e5b3fd)
+
 ## Stack
 
 `Python` | `spaCy` | `NLTK` | `scikit-learn` | `Twitter API` | `Nominatim`
-
-## Write-up
-
-Full methodology and visualizations: [Medium post](https://ajaltamiranomontoya.medium.com/twitter-sentiment-analysis-what-does-people-say-about-brazils-ongoing-pension-reform-830568e5b3fd)
 
