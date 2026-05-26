@@ -42,6 +42,3 @@ Twitter-based opinion measurement lacks the sampling rigor and external validati
 
 Full methodology and visualizations: [Medium post](https://ajaltamiranomontoya.medium.com/twitter-sentiment-analysis-what-does-people-say-about-brazils-ongoing-pension-reform-830568e5b3fd)
 
----
-*Note: a planned extension explored transfer learning with distilled BERT models for improved classification.*
-
